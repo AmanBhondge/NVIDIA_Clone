@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav_larger {
+    display: none;
+}
+
+.nav_medium {
+    display: none;
+}
+
+.None {
+    border: none !important;
+    outline: none !important;
+}
+
+.logo {
+    width: 150px;
+}
+
+@media (min-width : 768px) {
+
+    .nav_medium {
+        display: block;
+        width: 100%;
+      
+        display: flex;
+        align-items: center;
+    }
+
+    .da1 {
+        width: 50%;
+        
+    }
+
+    .med_logo {
+        width: 200px;
+    }
+
+    .aaa {
+        text-decoration: none;
+        padding: 10px;
+        color: gray;
+        font-size: larger;
+    }
+
+
+    .da2 {
+        width: 50%;
+    
+    }
+
+    .nav_larger {
+        display: none;
+    }
+
+    .nav_small {
+        display: none;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+
+    .nav_larger {
+        display: block;
+        width: 100%;
+
+    }
+
+    .lol1 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .ul1 {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .logo_large {
+        width: 250px;
+        padding: 10px;
+
+    }
+
+    .aa {
+        text-decoration: none;
+        padding: 10px;
+        color: gray;
+    }
+
+    .nav_medium {
+        display: none;
+    }
+
+
+    .nav_small {
+        display: none;
+    }
+
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin-top: -15px;
+    padding: 10px;
+}
